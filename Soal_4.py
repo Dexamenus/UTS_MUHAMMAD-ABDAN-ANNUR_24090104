@@ -1,7 +1,7 @@
 brt = float(input('Masukan Berat badan (Kg) : '))
 ttg = float(input("Masukan Tinggi Badan (meter) : "))
 
-bmi = brt/ttg
+bmi = brt/ttg**2
 
 if bmi < 18.5:
     hasil = ("Berat Badan Kurang")
